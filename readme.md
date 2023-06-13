@@ -20,7 +20,8 @@ the second step using 5 latent vectors sequence.
 
 More subjects cross-validation resuls (best one of 3 reruns):
 
-| Subject   |   31   |   35   |   42  | 
+| Subject   |   31   |   35   |   42  |
+
 | Accuracy  |   0.8  |   0.74 |  0.64 |
 
 
