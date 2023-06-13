@@ -14,7 +14,7 @@ Download it [here](https://disk.yandex.ru/d/zY_LcxyKwxivjw) and put in data fold
 
 ## Results 
 
-So far using two step approach we were able to reach 0.8 (subject 31) accuracy predicting two classes at 
+So far using two step approach we were able to reach 0.8 accuracy (subject 31) predicting two classes at 
 the second step. 
 <div align=center> <img src="assets/scheme_and_results.jpg" alt="preprocessing scheme and results" /> </div>  
 
