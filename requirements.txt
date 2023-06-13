@@ -1,0 +1,5 @@
+tensorbord-gpu
+tensorflow_addons
+matplotlib
+numpy
+scikit-learn
