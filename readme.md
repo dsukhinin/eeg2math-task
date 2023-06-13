@@ -6,7 +6,7 @@ Classifying EEG recordings of multiple participants into three classes can be ch
 
 
 ## Dataset
-The dataset contains EEG recordings from 19 individuals (named from 25 to 44). The participants underwent two different mathematical tasks or remained at rest for a total of 18 states, each state lasting approximately 30 seconds. The continuous recording was segmented into 3-second intervals with three corresponding classes: rest, performing the first math task (scroll), and performing the second math task. It should be noted that the recordings are unprocessed, without reference signals or standardization(normalization).
+The dataset contains EEG recordings from 19 individuals (named from 25 to 44). The participants underwent two different mathematical tasks or remained at rest for a total of 18 states, each state lasting approximately 30 seconds. The continuous recording was segmented into 3-second intervals with three corresponding labels: rest, performing the first math task (scroll), and performing the second math task. It should be noted that the recordings are unprocessed, without reference signals or standardization(normalization).
 
 EEG dataset files format: `x_{subject_number}_{segment number}.npy` for eeg segments and `{subject_number}_y.npy` for eeg states labels. 
 
@@ -15,8 +15,13 @@ Download Dataset [here](https://disk.yandex.ru/d/zY_LcxyKwxivjw) and put in data
 ## Results 
 
 So far using two step approach we were able to reach 0.8 accuracy (subject 31) predicting two classes at 
-the second step. 
-<div align=center> <img src="assets/scheme_and_results.jpg" alt="preprocessing scheme and results" /> </div>  
+the second step using 5 latent vectors sequence. 
+<div align=center> <img src="assets/scheme_and_results.jpg" alt="preprocessing scheme and results" /> </div>
+
+More subjects cross-validation resuls (best one of 3 reruns):
+
+| Subject   |   31   |   35   |   42  | 
+| Accuracy  |   0.8  |   0.74 |  0.64 |
 
 
 
