@@ -12,7 +12,7 @@ The dataset contains EEG recordings from 19 individuals (named from 25 to 44). T
 
 So far using two step approach we were able to reach 0.8 (excluded subject 31) accuracy predicting two classes at 
 the second step. 
-<div align=center> <img src="scheme_and_results.jpg" alt="preprocessing scheme and results" /> </div>  
+<div align=center> <img src="assets/scheme_and_results.jpg" alt="preprocessing scheme and results" /> </div>  
 
 
 
