@@ -1,4 +1,5 @@
-tensorbord-gpu
+tensorflow-gpu
+tensorbord
 tensorflow_addons
 matplotlib
 numpy
