@@ -10,7 +10,7 @@ The dataset contains EEG recordings from 19 individuals (named from 25 to 44). T
 
 EEG dataset files format: `x_{subject_number}_{segment number}.npy` for eeg segments and `{subject_number}_y.npy` for eeg states labels. 
 
-Download Dataset [here](https://disk.yandex.ru/d/zY_LcxyKwxivjw) and put in data folder.
+Download Dataset [here](https://drive.google.com/file/d/1MWoCCB-kb7JPFBDce668kTTEtUV3w-xI/view?usp=sharing) and put in data folder.
 
 ## Results 
 
