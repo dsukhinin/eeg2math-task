@@ -13,12 +13,12 @@ EEG dataset files format: `x_{subject_number}_{segment number}.npy` for eeg segm
 Download Dataset [here](https://drive.google.com/file/d/1MWoCCB-kb7JPFBDce668kTTEtUV3w-xI/view?usp=sharing) and put in data folder.
 
 ## Results 
-
-So far using two step approach we were able to reach 0.8 accuracy (subject 31) predicting two classes at 
-the second step using 5 latent vectors sequence. 
 <div align=center> <img src="assets/scheme_and_results.jpg" alt="preprocessing scheme and results" /> </div>
+So far using two step approach we were able to reach from 0.64 to 0.9 accuracy predicting two classes at 
+the second step using 5 latent vectors sequence. 
 
-More subjects cross-validation resuls (best one of 3 reruns):
+
+All subjects cross-validation resuls (best one of 3 reruns):
 
 | Subject | Accuracy | 
 | --- | --- | 
