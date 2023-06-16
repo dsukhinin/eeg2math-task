@@ -22,10 +22,13 @@ More subjects cross-validation resuls (best one of 3 reruns):
 
 | Subject | Accuracy | 
 | --- | --- | 
-| 31  | 0.8 |
-| 35 | 0.74 |
-| 42 | 0.64 |
-
+| 25 | 0.68 |
+| 26 | 0.78 |
+| 27 | 0.86 |
+| 28 | 0.89 |
+| 29 | 0.81 |
+| 30 | 0.81 |
+| 31 | 0.8 |
 
 ## Quick Start
 Download dataset
