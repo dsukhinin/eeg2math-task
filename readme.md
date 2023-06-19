@@ -22,9 +22,9 @@ Then follow steps:
 
 First use `1_edf2stages.ipynb` to convert EDF file of single participant into stages. 
 
-Second use `2_stages2epochs.ipynb` to convert stages to epoch
+Second use `2_stages2epochs.ipynb` to convert stages to epochs. 
 
-Finnaly after all data converted for all participants make NPY files using `3_make_ds.ipynb` 
+Finnaly after all data converted for all participants make NPY files using `3_make_ds.ipynb`. 
 
 
 ## Results 
