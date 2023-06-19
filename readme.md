@@ -45,7 +45,7 @@ All subjects cross-validation resuls (best one of 3 reruns):
 
 
 ## Quick Start
-Download dataset
+Download converted dataset
 
 Install dependencies
 
