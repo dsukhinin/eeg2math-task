@@ -10,7 +10,12 @@ The dataset contains EEG recordings from 20 individuals (named from 25 to 44). T
 
 EEG dataset files format: `x_{subject_number}_{segment number}.npy` for eeg segments and `{subject_number}_y.npy` for eeg states labels. 
 
-Download Dataset [here](https://drive.google.com/file/d/1MWoCCB-kb7JPFBDce668kTTEtUV3w-xI/view?usp=sharing) and put in data folder.
+Download Converted Dataset [here](https://drive.google.com/file/d/1MWoCCB-kb7JPFBDce668kTTEtUV3w-xI/view?usp=sharing) and put in data folder.
+
+Alternatively make dataset with different epoch duration and overlap from source EDF files(download here) by using scripts:
+First use `1_edf2stages.ipynb` to convert EDF file of a partipaciant into stages. 
+Second use `2_stages2epochs.ipynb` to convert stages to epoch
+Finnaly after all data converted make NPY files using `3_make_ds.ipynb` 
 
 ## Results 
 <div align=center> <img src="assets/scheme_and_results.jpg" alt="preprocessing scheme and results" /> </div>
