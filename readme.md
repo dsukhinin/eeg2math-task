@@ -12,7 +12,7 @@ EEG dataset files format: `x_{subject_number}_{segment number}.npy` for eeg segm
 
 Download Converted Dataset [here](https://drive.google.com/file/d/1MWoCCB-kb7JPFBDce668kTTEtUV3w-xI/view?usp=sharing) and put in data folder.
 
-Alternatively make dataset with different epoch duration and overlap from source EDF files(download here and put into work_data folder):
+Alternatively make dataset with different epoch duration and overlap from source EDF files(download [here](soon) and put into work_data folder):
 
 Install mne:
 ```python  
