@@ -14,7 +14,7 @@ Download Converted Dataset [here](https://drive.google.com/file/d/1MWoCCB-kb7JPF
 
 Alternatively make dataset with different epoch duration and overlap from source EDF files(download [here](https://www.dropbox.com/scl/fi/dedj9sqk14vfuv43auvq7/work_data.zip?dl=0&rlkey=pihlrscl21fdlhz9pkcu63h9o) and put into work_data folder):
 
-Install mne:
+Install [mne](https://mne.tools/stable/install/manual_install.html#manual-install):
 ```python  
 pip install mne
 ```
