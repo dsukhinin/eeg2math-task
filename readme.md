@@ -12,7 +12,7 @@ EEG dataset files format: `x_{subject_number}_{segment number}.npy` for eeg segm
 
 Download Converted Dataset [here](https://drive.google.com/file/d/1MWoCCB-kb7JPFBDce668kTTEtUV3w-xI/view?usp=sharing) and put in data folder.
 
-Alternatively make dataset with different epoch duration and overlap from source EDF files(download [here](soon) and put into work_data folder):
+Alternatively make dataset with different epoch duration and overlap from source EDF files(download [here](https://www.dropbox.com/scl/fi/dedj9sqk14vfuv43auvq7/work_data.zip?dl=0&rlkey=pihlrscl21fdlhz9pkcu63h9o) and put into work_data folder):
 
 Install mne:
 ```python  
@@ -33,7 +33,7 @@ So far using two step approach we were able to reach from 0.64 to 0.9 accuracy p
 the second step using 5 latent vectors sequence. 
 
 
-All subjects cross-validation resuls (best one of 3 reruns):
+All subjects cross-validation resuls (best one of 3 reruns, 3 seconds eeg segments at the first step and 5 latens sequence at the second):
 
 | Subject | Accuracy | Subject | Accuracy | Subject | Accuracy | Subject | Accuracy | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
@@ -76,13 +76,15 @@ TEST_MODEL = 'resnet' #  for some participants perform slightly better with long
 
 Both models described in detail in:
 ```
-@article{petrosyan2022,
-title = {Speech decoding from a small set of spatially segregated minimally invasive intracranial EEG electrodes with a compact and interpretable neural network},
-author = {Artur Petrosyan and Alexey Voskoboinikov and Dmitrii Sukhinin and Anna Makarova and Anastasia Skalnaya and Nastasia Arkhipova and Mikhail Sinkin and Alexei Ossadtchi},
-journal = {Journal of Neural Engineering},
-doi = {10.1088/1741-2552/aca1e1},
-url = {https://dx.doi.org/10.1088/1741-2552/aca1e1},
-year = {2022},
+@article{petrosyan2021,
+  title={Decoding and interpreting cortical signals with a compact convolutional neural network},
+  author={Petrosyan, Artur and Sinkin, Mikhail and Lebedev, Mikhail and Ossadtchi, Alexei},
+  journal={Journal of Neural Engineering},
+  volume={18},
+  number={2},
+  pages={026019},
+  year={2021},
+  publisher={IOP Publishing}
 }
 ```
 
